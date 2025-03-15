@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e15ec50a-caac-4e6a-b18b-2b627691223c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e4724005-3b7f-42bc-ad8c-bf9c55ded39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{b1397156-6d0d-4723-8c17-8e3d9993fd23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features">
+      <UniqueIdentifier>{6668d273-cb08-430d-87d3-e82012f71a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Features\il2cpp">
+      <UniqueIdentifier>{5e550156-12b6-4780-85d1-2f4277748323}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\DRGSBox\DRGSBox.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Player.hpp">
+      <Filter>Header Files\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\il2cpp\il2cpp.hpp">
+      <Filter>Header Files\Features\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\il2cpp\il2cpp-api-types.h">
+      <Filter>Header Files\Features\il2cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DRGSBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Player.cpp">
+      <Filter>Header Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\il2cpp\il2cpp.cpp">
+      <Filter>Header Files\Features\il2cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
